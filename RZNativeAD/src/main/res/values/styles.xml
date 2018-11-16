@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="recyclerView">
+        <item name="loadMoreFooterLayout">@layout/layout_irecyclerview_load_more_footer</item>
+        <item name="refreshHeaderLayout">@layout/layout_irecyclerview_refresh_header</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="loadMoreEnabled">false</item>
+        <item name="refreshEnabled">true</item>
+        <item name="beginPage">0</item>
+        <item name="refreshSuccessHoverTime">500</item>
+    </style>
+</resources>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Joke</string>
+    <string name="error_joke_load">网络异常，请重试！</string>
+</resources>
