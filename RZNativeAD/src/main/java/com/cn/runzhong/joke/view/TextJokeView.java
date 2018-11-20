@@ -30,7 +30,7 @@ public class TextJokeView extends BaseJokeView implements OnNativeADClickListene
     @Override
     public Map<String, String> getParams() {
         Map<String, String> map = new HashMap<>();
-        map.put("key", NativeADConst.APPKEY_JOKE);
+        map.put("key", keyJoke);
         return map;
     }
 

@@ -31,7 +31,7 @@ public class PictureJokeView extends BaseJokeView implements OnNativeADClickList
     @Override
     public Map<String, String> getParams() {
         Map<String, String> map = new HashMap<>();
-        map.put("key", NativeADConst.APPKEY_JOKE);
+        map.put("key",keyJoke);
         map.put("type", "pic");
         return map;
     }

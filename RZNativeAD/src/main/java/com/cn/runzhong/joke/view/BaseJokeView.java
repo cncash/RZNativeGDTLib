@@ -52,6 +52,7 @@ public abstract class BaseJokeView extends RelativeLayout implements OnRefreshLi
     private RZADPolicy rzadPolicy;
     private OnLoadListener onLoadListener;
     private boolean isLoadMore;
+	protected String keyJoke;
 //    public BaseJokeView(Context context) {
 //        super(context);
 //        initView();
@@ -95,6 +96,8 @@ public abstract class BaseJokeView extends RelativeLayout implements OnRefreshLi
                 posIdGDT = typedArray.getString(R.styleable.JokeView_posIdGDT);
             } else if (attr == R.styleable.JokeView_adPosition) {
                 adPosition = typedArray.getInt(R.styleable.JokeView_adPosition, 2);
+            } else if (attr == R.styleable.JokeView_key) {
+                keyJoke = typedArray.getString(R.styleable.JokeView_key);
             }
 
         }
